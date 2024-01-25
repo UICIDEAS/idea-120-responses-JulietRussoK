@@ -1,13 +1,15 @@
-Hello, I am Eliza 
+# Hello, I am Eliza 
 
-![Eliza](https://github.com/UICIDEAS/idea-120-responses-JulietRussoK/assets/156146741/5ed9c20a-e5a4-48e4-88ff-83b0c57d5963)  
-
-
+![Eliza](https://github.com/UICIDEAS/idea-120-responses-JulietRussoK/assets/156146741/5ed9c20a-e5a4-48e4-88ff-83b0c57d5963) 
 
 
 
-In the world of code Eliza is bright and wise,  
-A digital animated therapist on the rise   
+
+
+
+
+In the world of code Eliza is bright and wise,   
+A digital animated therapist on the rise    
 With compassion encoded, a virtual embrace,    
 She soothes you in the digital space.    
 
@@ -17,4 +19,4 @@ She soothes you in the digital space.
 ![Eliza 2](https://github.com/UICIDEAS/idea-120-responses-JulietRussoK/assets/156146741/90302767-c9a3-4a34-bbb2-77158c477a95)
 
 ![Eliza in action](https://github.com/UICIDEAS/idea-120-responses-JulietRussoK/assets/156146741/9e87efc0-1d33-4a05-9172-f2a2697c4965)  
-An animated conversation that is so profound, that is where healing an be found. 
+<!-- This is a comment -->An animated conversation that is so profound, that is where healing an be found. 
