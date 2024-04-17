@@ -1,0 +1,289 @@
+:: StoryTitle
+Project 3 IDEAS
+
+
+:: StoryData
+{
+  "ifid": "A154CBAE-7E59-4C56-A245-DBD1C10513E8",
+  "format": "Harlowe",
+  "format-version": "3.3.8",
+  "start": "Untitled Passage",
+  "zoom": 1
+}
+
+
+:: \ File {"position":"1800,1050","size":"100,100"}
+You Successfully collected your evidence. 
+ 
+ Secure your evidence and EXIT. 
+ 
+ [[FINAL]] 
+
+
+
+:: AcceptMission {"position":"600,925","size":"100,100"}
+: AcceptMission
+
+You accept the offer, steeling yourself for the challenges ahead. The stranger nods, a glint of approval in their cybernetic eyes.
+
+Stranger: "Welcome to the resistance. We have much to do."
+
+[[Prepare for the upcoming mission.|PrepareForMission]]
+
+
+:: Action plan {"position":"1100,1075","size":"100,100"}
+Plan
+
+The mission  is brief and to the point. 
+
+Your objective: infiltrate the corporate headquarters, retrieve the incriminating data, and escape undetected.
+
+[[Gear up and prepare to breach the facility.|GearUp]]
+
+
+:: Apartment {"position":"850,425","size":"100,100"}
+Apartment
+You take a moment to look at your surroundings. The walls are empty, and the air is thick with the smell of cigarettes and synthetic stimulants. Your computer terminal blinks impatiently in the corner, awaiting your attention.
+
+[[Check your messages on the computer.|Messages]]
+[[Head to the kitchen for a cup of Jitterbug coffee.|Kitchen]]
+[[Gear up and head out into the city.|Street]]
+
+
+:: Bar {"position":"787.5,800","size":"100,100"}
+
+Bar
+You take a seat at the bar and order a drink from the bartender. The liquid burns as it slides down your throat, momentarily dulling the edge of anticipation. 
+You glance around the room. 
+
+
+[[Keep to yourself and wait for your contact to arrive.|Contact]]
+
+
+
+:: Club Mania {"position":"725,675","size":"100,100"}
+(text-colour:#212529)+(bg:(gradient: 0, 0,#ffffff,0,#ffffff,0,#e619e5,0.021,#ffffff,0.0566,#ffffff,0.1994,#888888,0.7907,#ff0066))[Welcome to Club Mania]
+
+You arrive at the Club Mania and as you step through the glass doors, there are pulsating lights in neon red and magenta, casting  shadows on the dance floor below. The air is thick with the scent of sweat and alcohol.
+
+The club's interior is exhibits solid chrome accents and holographic projections, creating an atmosphere that feels both futuristic and timeless. Massive screens across the walls display hypnotic visuals.
+
+At the center of it all, the dance floor pulses with thousands of beating hearts. As the pounding bass reverberates through the club, bodies hypotically move to the sound of the music, resembling a singular machine. 
+
+The bar stretches along one wall made of polished metal and glass. Behind it, bartenders serve cybernetic enhancements mix cocktails with practiced precision, their movements are smooth and mechanical. 
+
+[[Look for your contact and see what they have to say.|Contact]]
+[[Sit at the bar and order a drink while you wait.|Bar]]
+
+
+
+:: Contact {"position":"662.5,800","size":"100,100"}
+Contact
+You spot your contact sitting in a shadowy corner of the bar, their face obscured by the hood of their old leather jacket. They approach you. 
+
+Contact: "Glad you could make it. We've got a problem on our hands, and you're the only one who can help us."
+
+[[Accept the mission.|AcceptMission]]
+[[Refuse the mission and walk away.|RefuseMission]]
+
+
+
+:: ExecuteMission {"position":"1275,825","size":"100,100"}
+Execute Mission
+
+As you approach the corporate headquarters, a sense of anticipation courses through your veins. The entire city depends on you to gather this TOP SECRET information and stop the ongoing corruption. 
+
+[[Enter the facility and begin the infiltration.|InfiltrateFacility]]
+
+
+:: Explore {"position":"1037.5,675","size":"100,100"}
+Explore
+You wander the streets of Arena, soaking in the sights and sounds of the concrete jungle. From the alleys of the red-light district to the towering skyscrapers. 
+
+[[You hear music playing and It sparks your curiosity, you want to explore the electronic underworld.|Club Mania]]
+
+
+
+
+
+
+:: FINAL {"position":"1675,1325","size":"100,100"}
+Evacuate
+
+You evacuate with your team, evidence in hand.
+
+Back at the resistance base, you present the evidence.
+
+Resistance Leader: "Well done, operative. Your bravery will not be forgotten. Together, we will expose the corruption and bring about change."
+
+You've completed your mission and Saved the City of Arena. 
+ 
+ Play again?| [[Start the game]] ]
+
+
+:: GearUp {"position":"1250,1075","size":"100,100"}
+GearUp
+
+You gear up for the mission, checking  your equipment to ensure everything is in working order. With your weapons loaded and your nerves on edge, you're as ready as you'll ever be.
+
+[[Head to the facility and execute the mission.|ExecuteMission]]
+
+\:: ExecuteMission
+
+
+
+:: Hack Computer {"position":"1425,950","size":"100,100"}
+To Hack the Computer you must answer this riddle: 
+ 
+ I'm a tool with buttons and clicks,
+Use me to navigate and fix.
+Move me around to explore,
+And with me, you'll open the door.
+
+What am I?  
+
+A [[Keyboard]] 
+
+B [[Mouse]] 
+
+C [[Speakers]]
+
+
+:: InfiltrateFacility {"position":"1425,825","size":"100,100"}
+ Infiltrate Facility
+
+You slip past security and reach the main office.
+
+[[Hack into the main computer.|Hack Computer]]
+[[Search offices for evidence.|Search Offices]]
+
+
+:: Keyboard {"position":"1550,1200","size":"100,100"}
+INCORRECT ANSWER 
+
+TRY AGAIN [[Hack Computer]] 
+
+
+:: Keys {"position":"2000,950","size":"100,100"}
+INCORRECT ANSWER 
+
+TRY AGAIN [[SecureEvidence]] 
+
+
+
+:: Kitchen {"position":"850,550","size":"100,100"}
+Kitchen
+
+You make your way to the kitchen and prepare a steaming cup of JitterBug coffee. The rich and bitter aroma fills the air as you take a sip. As you gaze out the window, you can't shake the anxious feeling that something big is about to go down in Arena city.
+
+
+[[Finish your coffee and check your computer.|Messages]]
+[[Grab your gear and prepare to head out into the city.|Street]]
+
+
+:: Meeting Point {"position":"1100,925","size":"100,100"}
+Meeting point
+
+
+You arrive at the designated meeting point, where the head crew member of the operative awaits. They greet you with nods of recognition, and yet he seems skeptical about you being part of the mission. 
+
+Operative 1: "Glad to have you on board. I hope you do not dissapoint us."
+
+[[Listen to the plan of action.|Action plan]]
+
+
+:: Messages {"position":"725,550","size":"100,100"}
+Messages 
+
+You access your inbox and find a message from an anonymous sender. The subject line reads: 
+
+"URGENT: Meet me at Club Mania, midnight." 
+
+No further details are provided, but something about the message sends a shiver down your spine.
+
+[[Respond to the message and agree to the meeting.|Club Mania]]
+[[Ignore the message and continue with your day.|Apartment]]
+
+
+
+:: Mouse {"position":"1675,1200","size":"100,100"}
+
+You successfully download incriminating data.
+Secure your evidence and EXIT. 
+
+[[Proceed to extraction point.|FINAL]]
+
+
+:: NoteBook {"position":"1850,825","size":"100,100"}
+INCORRECT ANSWER 
+
+TRY AGAIN [[SecureEvidence]] 
+
+
+
+:: PrepareForMission {"position":"600,1050","size":"100,100"}
+PrepareForMission
+
+You spend the next few hours gathering supplies for the mission. Every item you pack is just in case you need it for survival. This reminds you of the danger that lies ahead. 
+
+[[Head to the meeting point and meet your fellow collegues.|Meeting Point]]
+
+
+
+
+:: RefuseMission {"position":"725,925","size":"100,100"}
+Mission Refused. 
+
+Go back to Club Mania [[Club Mania]] 
+
+
+:: Search Offices {"position":"1575,900","size":"100,100"}
+You find physical evidence of corruption.
+
+[[Secure the evidence.|SecureEvidence]]
+
+
+:: SecureEvidence {"position":"1700,900","size":"100,100"}
+ANSWER RIDDLE:
+
+I'm something you collect with care,
+In a folder, I'll be there.
+Click on me, don't be shy,
+To secure evidence, give me a try.
+
+What am I?
+
+A [[Keys]] 
+
+B[[NoteBook]]
+
+C [[ File]]
+
+
+:: Speakers {"position":"1425,1200","size":"100,100"}
+INCORRECT ANSWER 
+
+TRY AGAIN [[Hack Computer]] 
+
+
+:: Start the game {"position":"850,275","size":"100,100"}
+
+You awaken in your cramped apartment in the heart of Arena City. The sound of rain hitting against the window echos in the room, and the flickering neon lights outside cast an eerie radiation glow. Your body feels cold and heavy.
+
+[[Get up and check your surroundings.|Apartment]]
+
+
+
+
+
+:: Street {"position":"975,550","size":"100,100"}
+Streets 
+
+You step out into the dark, grungy and neon-lit streets of Arena, the sounds of the bustling metropolis overwelm you. Pedestrians hurry past, their faces obscured by cybernetic implants. You tighten your grip on your trusty backpack and prepare yourself for whatever the night may bring. 
+
+[[Make your way to the Club Mania for the mysterious meeting.|Club Mania]]
+[[Explore the city .|Explore]]
+
+
+:: Untitled Passage {"position":"850,150","size":"100,100"}
+[[Start the game]]
